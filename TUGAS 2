@@ -1,0 +1,212 @@
+{
+  "nbformat": 4,
+  "nbformat_minor": 0,
+  "metadata": {
+    "colab": {
+      "provenance": [],
+      "authorship_tag": "ABX9TyNTK0KVRtABV1HUFIzttss7",
+      "include_colab_link": true
+    },
+    "kernelspec": {
+      "name": "python3",
+      "display_name": "Python 3"
+    },
+    "language_info": {
+      "name": "python"
+    }
+  },
+  "cells": [
+    {
+      "cell_type": "markdown",
+      "metadata": {
+        "id": "view-in-github",
+        "colab_type": "text"
+      },
+      "source": [
+        "<a href=\"https://colab.research.google.com/github/randimaulana70/Pemerograman-Dasar/blob/main/TUGAS%202\" target=\"_parent\"><img src=\"https://colab.research.google.com/assets/colab-badge.svg\" alt=\"Open In Colab\"/></a>"
+      ]
+    },
+    {
+      "cell_type": "code",
+      "execution_count": 19,
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "fpO1xbkOzVwK",
+        "outputId": "6275c3b5-7ee8-4a72-9f13-693da327a3ce"
+      },
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "firstName: Randi\n",
+            "lastName: Maulana\n",
+            "age: 23\n",
+            "Is_Married: False\n"
+          ]
+        }
+      ],
+      "source": [
+        "# variabel firstName, lastName, age, isMarried\n",
+        "\n",
+        "firstName : \"Randi\"\n",
+        "lastName : \"Maulana\"\n",
+        "age : 23\n",
+        "is_Married : False\n",
+        "\n",
+        "print(\"firstName:\", \"Randi\")\n",
+        "print(\"lastName:\", \"Maulana\")\n",
+        "print(\"age:\", 23)\n",
+        "print(\"Is_Married:\", False)"
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "data_diri = {\"firstName\": \"Randi\", \"lastName\": \"Maulana\", \"age\": 23, \"is_Married\": False}\n",
+        "\n",
+        "data_diri[\"firstName\"] # Randi\n",
+        "data_diri[\"lastName\"] # Maulana\n",
+        "data_diri[\"age\"] # 23\n",
+        "data_diri[\"is_Married\"] # False\n",
+        "\n",
+        "print (data_diri)"
+      ],
+      "metadata": {
+        "id": "iErPL4ev3NG2",
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "outputId": "dc4b58cb-c5d2-47eb-cf21-a1a95c7c3e06"
+      },
+      "execution_count": 24,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "{'firstName': 'Randi', 'lastName': 'Maulana', 'age': 23, 'is_Married': False}\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "# data list\n",
+        "daftar_inspeksi = [\"pemahaman terhadap rencana dan desain\",\n",
+        "\"ketersediaan bahan dan peralatan\",\n",
+        "\"pengawasan pekerjaan\",\n",
+        "\"kualitas konstruksi\",\n",
+        "\"keselamatan kerja\",\n",
+        "\"koordinasi dengan pemilik proyek\"]\n",
+        "\n",
+        "daftar_inspeksi[0] # \"pemahaman terhadap rencana dan desain\"\n",
+        "daftar_inspeksi[1] # \"ketersediaan bahan dan peralatan\"\n",
+        "daftar_inspeksi[2] # \"pengawasan pekerjaan\"\n",
+        "daftar_inspeksi[3] # \"kualitas konstruksi\"\n",
+        "daftar_inspeksi[4] # \"keselamatan kerja\"\n",
+        "daftar_inspeksi[5] # \"koordinasi dengan pemilik proyek\"\n"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/",
+          "height": 36
+        },
+        "id": "rWUcc2jPF6hb",
+        "outputId": "1930b01c-a27f-4c2a-eabc-2ae9513c2645"
+      },
+      "execution_count": 41,
+      "outputs": [
+        {
+          "output_type": "execute_result",
+          "data": {
+            "text/plain": [
+              "'koordinasi dengan pemilik proyek'"
+            ],
+            "application/vnd.google.colaboratory.intrinsic+json": {
+              "type": "string"
+            }
+          },
+          "metadata": {},
+          "execution_count": 41
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "# Dictionary waktu datang\n",
+        "startTime = {\"HH\": 9, \"mm\": 23, \"ss\": 57}\n",
+        "\n",
+        "# Dictionary waktu pulang\n",
+        "endTime = {\"HH\": 15, \"mm\": 25, \"ss\": 43}\n",
+        "\n",
+        "print(\"Start Time:\", startTime)\n",
+        "print(\"End Time  :\", endTime)"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "cWVGNynFHWuu",
+        "outputId": "e17f796c-aa78-40e1-f6fb-b7f75bb40f20"
+      },
+      "execution_count": 42,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "Start Time: {'HH': 9, 'mm': 23, 'ss': 57}\n",
+            "End Time  : {'HH': 15, 'mm': 25, 'ss': 43}\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "# Data contoh\n",
+        "katalog_A = {\"Laptop\", \"Mouse\", \"Keyboard\", \"Monitor\"}\n",
+        "katalog_B = {\"Printer\", \"Mouse\", \"Scanner\", \"Monitor\"}\n",
+        "produk_diskon = (\"Laptop\", \"Scanner\", \"Headset\")\n",
+        "\n",
+        "# 1.katalog_A dan katalog_B\n",
+        "katalog_lengkap = katalog_A.union(katalog_B)\n",
+        "\n",
+        "# 2.produk promo aktif (intersection dengan produk_diskon)\n",
+        "produk_promo_aktif = katalog_lengkap.intersection(produk_diskon)\n",
+        "\n",
+        "print(\"Katalog A:\", katalog_A)\n",
+        "print(\"Katalog B:\", katalog_B)\n",
+        "print(\"Produk Diskon:\", produk_diskon)\n",
+        "print(\"Katalog Lengkap:\", katalog_lengkap)\n",
+        "print(\"Produk Promo Aktif:\", produk_promo_aktif)"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "2-IvlEkgROkG",
+        "outputId": "3e10688d-dda0-42a0-c792-885d337fe254"
+      },
+      "execution_count": 46,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "Katalog A: {'Laptop', 'Monitor', 'Keyboard', 'Mouse'}\n",
+            "Katalog B: {'Scanner', 'Monitor', 'Printer', 'Mouse'}\n",
+            "Produk Diskon: ('Laptop', 'Scanner', 'Headset')\n",
+            "Katalog Lengkap: {'Monitor', 'Scanner', 'Mouse', 'Keyboard', 'Printer', 'Laptop'}\n",
+            "Produk Promo Aktif: {'Laptop', 'Scanner'}\n"
+          ]
+        }
+      ]
+    }
+  ]
+}
